@@ -1,0 +1,152 @@
+:root {
+    --body-bg-color: #dce4e3;
+    --green: #18c29c;
+    --light-green: #8ed7c6;
+    --light-grey: #dce4e3;
+    --text-color: #084236;
+}
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-color: #dce4e3;
+}
+
+.left-section{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 6vw;
+    background-color: var(--green);
+    overflow-x:hidden;
+    overflow-y:auto;
+    transition: all ease 0.5s;
+}
+
+.sidebar{
+    width: 100%;
+    margin: 26px 0;
+}
+
+.input{
+    border:none;
+    background-color: var(--light-grey);
+    display: none;
+    width: 100%;
+    margin-left: 0.5rem;
+}
+
+.input:focus{
+    outline:none
+}
+
+.top-div img, .icons, .bottom-div img{
+    cursor: pointer;
+}
+
+.top-div{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 15px 30px 30px;
+}
+
+.logo{
+    display: none;
+}
+
+.top-div button{
+    background-color: transparent;
+    border: transparent;
+}
+
+.icons{
+    margin: 0 15px 8px 15px;
+    display: flex;
+    align-items: center;
+    padding: 14px 12px;
+    border-radius: 12px;
+}
+
+.whiteback{
+    background-color: var(--light-grey);
+}
+
+.descp{
+  display: none;
+  margin-left: 10px;
+  font-size: .9rem;
+  color: var(--text-color);
+}
+
+.bottom-div{
+    padding: 0 15px 0 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    width: 100%;
+    background-color: var(--light-green);
+}
+
+.user-info{
+    display: none;
+    line-height: 15px;
+    color: var(--text-color);
+}
+
+.user-info p:first-child {
+    font-size: .9rem;
+  }
+  
+.user-info p:last-child {
+    font-size: .7rem;
+}
+
+.user-info img {
+    width: 48px;
+    height: 48px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.user-text{
+    min-width: 100%;
+}
+
+h2{
+    padding: 20px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: var(--text-color);
+}
+
+.expanded-nav {
+    width: 22vw;
+    overflow-x:hidden;
+    overflow-y:auto;
+    transition: all ease 0.5s;
+}
+  
+.expanded-block {
+    display: block;
+}
+  
+.expanded-flex {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+  
