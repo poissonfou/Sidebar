@@ -1,3 +1,17 @@
+/*The overflow propriety is used for anythings that surpases the limits defined for a element,
+it makes them fit introducing roll-bars
+
+It can have 4 values =
+visible -> standard value, show all the content even if it goes beyond defined size.
+hidden -> hides the part of the content that overflows the limits for the element.
+scroll -> hides the overflowing content as well, adding a scroll bar to the element.
+auto -> almost equal to scroll, but the scroll will only be added if need be. 
+
+You can especify the axis that is affect by adding -x and -y
+overflow-x affects only horizontally
+overflow-y affects only vertically
+When you use one, the other takes auto as a value by default
+*/
 :root {
     --body-bg-color: #dce4e3;
     --green: #18c29c;
