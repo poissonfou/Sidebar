@@ -1,3 +1,3 @@
-# rocketseat-3
+# Sidebar
 
 Código do desafio Sidebar do Discover da RocketSeat
